@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-const mongoUri = "mongodb+srv://mamun:Mamun819@cluster0.k7t2x.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const mongoUri = 
 mongoose.connect(mongoUri, {
     useNewUrlParser: true,
     useCreateIndex: true,
